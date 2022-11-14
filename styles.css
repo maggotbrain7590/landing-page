@@ -32,7 +32,6 @@ a,
     flex: auto;
     width: 100%;
     margin: 10px;
-    justify-content: space-around;
 }
 
 .links {
@@ -50,6 +49,7 @@ button {
     border-radius: 4px;
     border: 0;
     padding: 4px;
+    max-width: 100px;
 }
 
 .body {
@@ -57,9 +57,46 @@ button {
     flex: auto;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
+    padding: 50px;
 }
 
 img {
     height: 150px;
     width: 150px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.flames {
+    width: 400px;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.subtext {
+   margin-bottom: 10px;
+}
+
+.text {
+    padding: 1em;
 }
