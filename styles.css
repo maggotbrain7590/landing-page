@@ -1,6 +1,12 @@
 body {
     font-family: ;
     display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%
+    margin: auto;
 }
 
 a, 
@@ -15,17 +21,23 @@ a,
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .header {
     display: flex;
-}
-
-.info {
-    display: flex;
+    flex: auto;
+    width: 100%;
+    margin: 10px;
+    justify-content: space-around;
 }
 
 .links {
+    display: flex;
+    gap: 8px;
     
 }
 
@@ -38,4 +50,16 @@ button {
     border-radius: 4px;
     border: 0;
     padding: 4px;
+}
+
+.body {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 150px;
+    width: 150px;
 }
