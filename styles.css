@@ -1,3 +1,8 @@
+body {
+    font-family: ;
+    display: flex;
+}
+
 a, 
 .subtext {
     text-decoration: none;
@@ -6,9 +11,22 @@ a,
 }
 
 .hero {
+    display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
+}
+
+.header {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.links {
+    
 }
 
 .main {
@@ -17,5 +35,7 @@ a,
 
 button {
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 4px;
+    border: 0;
+    padding: 4px;
 }
