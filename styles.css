@@ -15,6 +15,7 @@ a,
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-basis: 100%;
 }
 
 .header {
@@ -92,4 +93,10 @@ img {
 
 .text {
     padding: 1em;
+}
+
+.body-head {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
 }
