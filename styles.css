@@ -1,13 +1,3 @@
-body {
-    font-family: ;
-    display: flex;
-    flex: auto;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: center;
-    width: 100%
-    margin: auto;
-}
 
 a, 
 .subtext {
@@ -24,7 +14,7 @@ a,
     flex: auto;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .header {
@@ -32,6 +22,8 @@ a,
     flex: auto;
     width: 100%;
     margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .links {
@@ -91,6 +83,7 @@ img {
 
 .container {
     display: flex;
+
 }
 
 .subtext {
