@@ -62,12 +62,52 @@ button {
 }
 
 .flames {
-    max-width: 300px;
+   width: 300px;
+   height: 200px;
 }
 
-.info {
+.banner {
     display: flex;
     flex-flow: column wrap;
     row-gap: 10px;
     max-width: 500px;
 }
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.text.caption {
+    color: #1F2937;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    max-height: 150px;
+    max-width: 150px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.fan { 
+    display: flex;
+    flex: auto;
+}
+
