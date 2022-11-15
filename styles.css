@@ -143,13 +143,30 @@ img {
 
 .footer {
     display: flex;
-    flex-direction: column;
     background-color: #3882F6;
     color:#F9FAF8;
-    margin: 50px;
-    padding: 20px;
+    margin: 60px;
+    padding: 40px;
     min-width: 800px;
     border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.email {
+    color:#E5E7EB;
+    font-size: 16px;
+}
+
+.follow {
+    display: flex;
+    flex:auto;
 }
 
 
