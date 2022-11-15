@@ -4,6 +4,7 @@ body {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .hero {
@@ -138,6 +139,17 @@ img {
     font-weight: bold;
     font-size: 24px;
     font-style: normal;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    margin: 50px;
+    padding: 20px;
+    min-width: 800px;
+    border-radius: 8px;
 }
 
 
