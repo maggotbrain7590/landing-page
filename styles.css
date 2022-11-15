@@ -8,8 +8,20 @@ body {
 
 .hero {
     display:flex;
+    flex: auto;
     flex-flow: column wrap;
     background-color: #1F2937;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    column-gap: 450px;
+    padding: 10px;
 }
 
 .main {
@@ -32,8 +44,30 @@ a {
     text-decoration: none;
 }
 
+.links {
+    display: flex;
+    gap: 10px;
+}
+
 button {
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
+    max-width: 100px;
+}
+.container {
+    display: flex;
+    margin: 50px;
+    column-gap: 20px;
+}
+
+.flames {
+    max-width: 300px;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+    max-width: 500px;
 }
