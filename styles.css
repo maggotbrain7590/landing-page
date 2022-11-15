@@ -21,7 +21,7 @@ body {
     display: flex;
     flex: auto;
     align-items: center;
-    column-gap: 450px;
+    column-gap: 500px;
     padding: 10px;
 }
 
@@ -55,6 +55,7 @@ button {
     border-radius: 8px;
     color: #F9FAF8;
     max-width: 100px;
+    max-height: 50px;
 }
 .container {
     display: flex;
@@ -157,6 +158,7 @@ img {
     flex-direction: column;
     font-size: 24px;
     font-weight: bold;
+    justify-content: center;
 }
 
 .email {
@@ -169,4 +171,18 @@ img {
     flex:auto;
 }
 
+.copyright {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.sign {
+    min-width: 100px;
+    max-height: 30px;
+}
 
